@@ -6,7 +6,7 @@
 
 Case studies:
 
-- Land Use and Land Cover Dynamics
-- Precipitation Time Series
-- Temperature Time Series
-- Vegetation Index Time Series
+1. Land Use and Land Cover Dynamics
+2. Precipitation Time Series
+3. Temperature Time Series
+4. Vegetation Index Time Series
