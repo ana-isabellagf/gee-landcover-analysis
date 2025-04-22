@@ -37,8 +37,7 @@ gee-landcover-analysis/
 │   └── Codigos-da-legenda-colecao-9.xlsx # Class legend for MapBiomas
 ├── outputs/
 │   └── preview_lulc_map.png             # Screenshot preview of final map
-├── scripts/
-│   └── extract_lulc.py                  # Modular extraction function (optional)
+├── LICENSE                              # MIT License
 ├── requirements.txt                     # Python dependencies
 └── README.md                            # This file
 ```
