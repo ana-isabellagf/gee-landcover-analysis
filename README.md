@@ -50,7 +50,7 @@ The final result is an interactive, temporal map showing LULC class changes year
 
 **Click to explore the interactive map:**
 
-[View Interactive LULC Map](https://anaisabellagf.github.io/gee-landcover-analysis/LULC_time_series.html)
+[View Interactive LULC Map](https://ana-isabellagf.github.io/gee-landcover-analysis/LULC_time_series.html)
 
 <p align="center">
   <img src="outputs/preview_lulc_map.png" alt="Preview of interactive map" width="700"/>
