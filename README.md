@@ -1,4 +1,4 @@
-# 🌱 Land Cover Time Series Analysis using Google Earth Engine
+# Land Cover Time Series Analysis using Google Earth Engine
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ana-isabellagf/gee-landcover-analysis/blob/main/notebooks/extract_lulc.ipynb)
 
@@ -8,23 +8,23 @@ It generates an interactive map displaying temporal changes in land cover for a 
 
 ---
 
-## 📌 Objective
+## Objective
 
 To extract, convert, and visualize LULC raster data as yearly classified polygons (vector format) for the period 1985–2023, based on custom AOI inputs. The output includes a time-enabled map compatible with web browsers.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
-- 🌍 **Google Earth Engine** (Python API)
-- 🐍 Python: `geopandas`, `rasterio`, `folium`, `geemap`, `shapely`
-- 🗺️ MapBiomas Collection 9
-- 📦 Jupyter Notebook (Colab-compatible)
-- 📁 Post-processing with `rasterio.mask` and `features.shapes`
+- **Google Earth Engine** (Python API)
+- Python: `geopandas`, `rasterio`, `folium`, `geemap`, `shapely`
+- MapBiomas Collection 9
+- Jupyter Notebook (Colab-compatible)
+- Post-processing with `rasterio.mask` and `features.shapes`
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 gee-landcover-analysis/
@@ -45,27 +45,27 @@ gee-landcover-analysis/
 
 ---
 
-## 📈 Output Overview
+## Output Overview
 
 The final result is an interactive, temporal map showing LULC class changes year by year.
 
-🖱️ **Click to explore the interactive map:**
+**Click to explore the interactive map:**
 
-🔗 [View Interactive LULC Map](https://anaisabellagf.github.io/gee-landcover-analysis/LULC_time_series.html)
+[View Interactive LULC Map](https://anaisabellagf.github.io/gee-landcover-analysis/LULC_time_series.html)
 
 <p align="center">
   <img src="outputs/preview_lulc_map.png" alt="Preview of interactive map" width="700"/>
 </p>
 
-- 🗓️ Period: **2012 to 2022**
-- 🎨 Colors follow MapBiomas legend
-- 🧭 Geometry clipped to AOI
-- 🧠 Converted raster classes to vector polygons using `rasterio.features.shapes`
-- ⏱️ Time slider allows comparison across years
+- Period: **2012 to 2023**
+- Colors follow MapBiomas legend
+- Geometry clipped to AOI
+- Converted raster classes to vector polygons using `rasterio.features.shapes`
+- Time slider allows comparison across years
 
 ---
 
-## 📋 How to Reproduce
+## How to Reproduce
 
 1. Clone this repository
 2. Upload your AOI as a zipped shapefile in `data/`
@@ -75,7 +75,7 @@ The final result is an interactive, temporal map showing LULC class changes year
 
 ---
 
-## 📎 References
+## References
 
 - [MapBiomas Collection 9](https://mapbiomas.org/)
 - [Brazil Data Cube Projections](https://brazil-data-cube.github.io/)
@@ -83,7 +83,7 @@ The final result is an interactive, temporal map showing LULC class changes year
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Ana Isabella Guimarães Ferreira**  
 📧 aisabellaguimaraesf@gmail.com  
@@ -91,6 +91,6 @@ The final result is an interactive, temporal map showing LULC class changes year
 
 ---
 
-## 🪪 License
+## License
 
 MIT License (or specify another)
