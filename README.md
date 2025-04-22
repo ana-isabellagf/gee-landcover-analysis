@@ -93,4 +93,6 @@ The final result is an interactive, temporal map showing LULC class changes year
 
 ## License
 
-MIT License (or specify another)
+This project is licensed under the [MIT License](LICENSE).
+
+> The land use and cover data used in this project is from [MapBiomas Collection 9](https://mapbiomas.org/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
